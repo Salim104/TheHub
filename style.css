@@ -61,3 +61,26 @@ li a {
 .featured-title {
   margin-top: 30px;
 }
+
+.featured-row {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 3px solid #f57720;
+}
+
+.circle-img {
+  width: 50%;
+  height: 60%;
+}
