@@ -40,9 +40,18 @@ li a {
   font-weight: 700;
 }
 
+.sign-btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
 .sign-btn {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*=====================hero section============= */
