@@ -93,3 +93,46 @@ li a {
   width: 50%;
   height: 60%;
 }
+/* ================product section =========== */
+.product-section {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.product-card {
+  width: 18%;
+  background-color: aqua;
+  padding: 0 10px;
+}
+
+.iphone-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iphone-img img {
+  width: 65%;
+  margin: 20px 0px;
+  height: 160px;
+}
+
+.iphone-name {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.orange-title {
+  color: #f57720;
+}
+
+.iphone-info {
+  margin-bottom: 8px;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+}
