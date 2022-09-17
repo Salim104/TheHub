@@ -97,12 +97,16 @@ li a {
 .product-section {
   width: 90%;
   margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+  grid-template-rows: 1fr 1fr;
 }
 
 .product-card {
-  width: 18%;
-  background-color: aqua;
+  background-color: #d9d9d9;
   padding: 0 10px;
+  padding-bottom: 10px;
 }
 
 .iphone-img {
@@ -112,9 +116,9 @@ li a {
   align-items: center;
 }
 .iphone-img img {
-  width: 65%;
+  width: 40%;
   margin: 20px 0px;
-  height: 160px;
+  height: 130px;
 }
 
 .iphone-name {
@@ -135,4 +139,49 @@ li a {
 .price-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.buy-btn {
+  padding: 10px;
+  background-color: #f57720;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+
+/* =============== section================ */
+
+footer {
+  background: black;
+  margin-top: 40px;
+  color: white;
+}
+
+.footer-info {
+  width: 90%;
+  padding: 20px;
+  margin: 0 auto;
+  padding-top: 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title {
+  margin-bottom: 30px;
+}
+
+.footer-links p {
+  margin-bottom: 10px;
+}
+
+.footer-img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 12px;
+}
+
+.contact-links p {
+  margin-bottom: 8px;
 }
